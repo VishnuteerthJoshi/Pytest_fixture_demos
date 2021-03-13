@@ -18,7 +18,7 @@ def test_title_name(test_login):
     driver.get("https://opensource-demo.orangehrmlive.com/")
     driver.maximize_window()
     driver.implicitly_wait(10)
-    if driver.title =="OrangeHRM123":
+    if driver.title =="OrangeHRM":
         assert True
     else:
         assert False
